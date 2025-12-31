@@ -4,31 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lumina - Premium E-commerce</title>
-  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-  <style type="text/tailwindcss">
-    @theme {
-      --color-primary: oklch(0.55 0.22 25);
-      --color-primary-foreground: oklch(0.99 0.002 264);
-      --color-secondary: oklch(0.96 0.005 264);
-      --color-background: oklch(0.99 0.002 264);
-      --color-foreground: oklch(0.15 0.01 264);
-      --color-border: oklch(0.90 0.005 264);
-    }
-    
-    @layer base {
-      body {
-        @apply bg-background text-foreground font-sans antialiased;
-      }
-    }
-
-    .btn-primary {
-      @apply inline-flex items-center justify-center rounded-lg bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-all hover:bg-primary/90 active:scale-95;
-    }
-
-    .glass-nav {
-      @apply sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <nav class="glass-nav">
